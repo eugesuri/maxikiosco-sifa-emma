@@ -1,0 +1,167 @@
+body {
+    font-family: "Lora", serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Poppins", sans-serif;
+    background: black;
+  }
+  
+  h1 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  .header-2 {
+    background: url(https://64.media.tumblr.com/1061954fcd7cb725dae4b956662e45f2/tumblr_inline_mqgbzfONSi1qz4rgp.gif);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  
+  .header-2 p {
+    font-size: 50px;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+  }
+  .header-2 p span.typed-text {
+    font-weight: normal;
+    color: pink;
+  }
+  .header-2 p span.cursor {
+    display: inline-block;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  .header-2 p span.cursor.typing {
+    animation: none;
+  }
+  
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+      url("../images/coding1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 300px 0;
+  }
+  
+  header a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #272044;
+    padding: 16px 32px;
+    margin-top: 32px;
+    display: inline-block;
+    letter-spacing: 3px;
+  
+    text-transform: uppercase;
+    background: white;
+  }
+  
+  header h1 {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1;
+    margin: 30px 0;
+  }
+  
+  header h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  header h3 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    margin: 0;
+  }
+  
+  .grid-2-columns {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  section {
+    margin: 0 auto;
+    padding: 100px;
+  
+    font-family: "Poppins", sans-serif;
+    font-family: "Lora", serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Playfair Display", serif;
+  }
+  
+  main p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #272044;
+    opacity: 0.9;
+  }
+  
+  .img-responsive {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .image {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    grid-gap: 64px;
+  }
+  
+  @media (max-width: 960px) {
+    header {
+      padding: 60px 0;
+    }
+  
+    header h1 {
+      font-size: 48px;
+    }
+  
+    header h2 {
+      font-size: 20px;
+    }
+  
+    header h3 {
+      font-size: 12px;
+    }
+  }
+  
+  footer {
+    text-align: center;
+    color: black;
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: pink;
+  }
